@@ -14,5 +14,5 @@ func main() {
 	}
 
 	filesNotFound := scraper.VerifyNewHost("pantry-new.learningequality.org")
-	fmt.Printf("%d files not found on new host\n", filesNotFound)
+	fmt.Printf("\n\n\n%d files not found on new host\n", filesNotFound)
 }
